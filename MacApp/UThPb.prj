@@ -1,0 +1,146 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/MacApp/UThPb.prj" location="/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/MacApp" name="UThPb" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>UThPb</param.appname>
+    <param.icon>${PROJECT_ROOT}/UThPb_resources/icon.icns</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/UThPb_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/UThPb_resources/icon_32.png</file>
+      <file>${PROJECT_ROOT}/UThPb_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/UThPb_resources/icon_16.png</file>
+    </param.icons>
+    <param.version>0.1</param.version>
+    <param.authnamewatermark>Noah McLean</param.authnamewatermark>
+    <param.email>noahmc@ku.edu</param.email>
+    <param.company>University of Kansas</param.company>
+    <param.summary>Calculates U-Pb ages with intermediate daughter disequilibrium measurements or assumptions.</param.summary>
+    <param.description />
+    <param.screenshot>/Users/noahmc/Documents/MATLAB Codes/UThPb_Isochron/ScreenShot400x400.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>/UThPb/</param.installpath.string>
+    <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes>In the following directions, replace MR/v96 by the directory on the target machine where MATLAB is installed, or MR by the directory where the MATLAB Runtime is installed.
+
+If the environment variable DYLD_LIBRARY_PATH is undefined, set it to the following string:
+
+MR/v96/runtime/maci64:MR/v96/sys/os/maci64:MR/v96/bin/maci64
+
+If it is defined, set it to the following:
+
+${DYLD_LIBRARY_PATH}:MR/v96/runtime/maci64:MR/v96/sys/os/maci64:MR/v96/bin/maci64</param.target.install.notes>
+    <param.intermediate>${PROJECT_ROOT}/UThPb/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/UThPb/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/UThPb/for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}/UThPb</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	 UThPbII_GUI_v3 -? 
+	 UThPbII_GUI_v3 varargin 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 varargin  input arguments</param.help.text>
+    <unset>
+      <param.description />
+      <param.guid />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/UThPbII_GUI_v3.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/LevenbergMarquardt_LinearRegression_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/UThPbII_GUI_v3.fig</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/calcIntcptMC_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/calcIntcptOnce_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/calcNi_UTh5_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/calcNi_UTh8_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/calcTicks_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/fzero_UTh8_6.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/fzero_both40_0.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/fzero_both40_4.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/fzero_intcpt_assm48assm08_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/fzero_intcpt_meas48assm08_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/fzero_intcpt_meas48meas08_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/fzero_only4Over.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/fzero_only4Under.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/initDataStructs_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/initLambdas_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/linearRegression_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/makeCovMats_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/makeEnvelopeUnctMinMax_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/makeMxps_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/maketLim_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/multivariateNormal_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/plotConcTicks_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/plotConc_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/plotEllipses_v2.m</file>
+      <file>/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/src/plotLine_v2.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/UThPb/for_testing" name="run_UThPb.sh" optional="false">/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/MacApp/UThPb/for_testing/run_UThPb.sh</file>
+      <file location="${PROJECT_ROOT}/UThPb/for_testing" name="readme.txt" optional="true">/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/MacApp/UThPb/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/UThPb/for_testing" name="UThPb.app" optional="false">/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/MacApp/UThPb/for_testing/UThPb.app</file>
+      <file location="${PROJECT_ROOT}/UThPb/for_testing" name="splash.png" optional="false">/Users/noahmc/Documents/MATLAB Codes/UThPb_Github/MacApp/UThPb/for_testing/splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2019a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.14.3</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
