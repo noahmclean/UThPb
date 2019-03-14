@@ -49,7 +49,7 @@ For detailed instructions, see the [UThPb User Guide](https://github.com/noahmcl
 
 To run UThPb, navigate to the path where you installed it (the default is the Applications folder on a Mac or Program Files on a PC), then click the UThPb folder.  Inside the application folder, double-click the UThPb app/exe to run the program.
 
-The UThPb window contains several components -- a U-Pb data table at the left, a U-Th data and results column in the middle, and a concordia plot on the right.  If the margins of one or more of these components is not showing correctly (e.g., a missing U-Pb label at the top left, a missing y-axis label, etc.), you can generally make these re-appear with a small adjustment to the UThPb window size.  
+The UThPb window contains several components -- a U-Pb data table at the left, a U-Th data and results column in the middle, and a concordia plot on the right.  If the margins of one or more of these components is not showing correctly (e.g., a missing U-Pb label at the top left, a missing y-axis label, etc.), you can generally make these re-appear with a small adjustment to the UThPb window size.
 
 For more detailed instructions on inputting data, performing calculations, generating plots, and interpreting results, please see the [UThPb User Guide](https://github.com/noahmclean/UThPb/wiki/User-Guide).
 
@@ -58,7 +58,7 @@ For more detailed instructions on inputting data, performing calculations, gener
 
 This program uses several mathematical algorithms to calculate ages, initial or current activity ratios, and generate plots.  Linear regression through U-Pb data uses the algorithm of [McLean (2014)](https://www.sciencedirect.com/science/article/pii/S0016703713004870), currently in just two dimensions.  The McLean algorithm yields the same results as the conventional York (1969, 2004) algorithm in 2D.
 
-Modeling the U-series intermediate daughter disequilibria and radiogenic Pb ingrowth efficiently requires solving a system of first-order linear differential equations with several matrix exponential expressions.  The approach is outlined in an [2016 AGU poster](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/198460), posted [here](link), and will be the subject of a journal article in preparation, called "New ways to calculate U-Th and U-Th-Pb dates."  
+Modeling the U-series intermediate daughter disequilibria and radiogenic Pb ingrowth efficiently requires solving a system of first-order linear differential equations with several matrix exponential expressions.  The approach is outlined in an [2016 AGU poster](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/198460), posted [here](https://github.com/noahmclean/UThPb/blob/master/doc/McLean_UThPb_AGU_2016_v4.pdf), and will be the subject of a journal article in preparation, called "New ways to calculate U-Th and U-Th-Pb dates."
 
 
 ## License
