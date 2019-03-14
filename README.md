@@ -43,8 +43,14 @@ An UThPb Installer window will open and direct you through the install process. 
 
 ## User Guide
 
+For detailed instructions, see the [UThPb User Guide](https://github.com/noahmclean/UThPb/wiki/User-Guide).
+
 To run UThPb, navigate to the path where you installed it (the default is the Applications folder on a Mac or Program Files on a PC), then click the UThPb folder.  Inside the application folder, double-click the UThPb app/exe to run the program.
 
 The UThPb window contains several components -- a U-Pb data table at the left, a U-Th data and results column in the middle, and a concordia plot on the right.  If the margins of one or more of these components is not showing correctly (e.g., a missing U-Pb label at the top left, a missing y-axis label, etc.), you can generally make these re-appear with a small adjustment to the UThPb window size.  
 
-To enter data into the U-Pb data table, 
+For more detailed instructions on inputting data, performing calculations, generating plots, and interpreting results, please see the [UThPb User Guide](https://github.com/noahmclean/UThPb/wiki/User-Guide).
+
+## Algorithms
+
+This program uses several mathematical algorithms to calculate ages, initial or current activity ratios, and generate plots.  Linear regression through U-Pb data uses the algorithm of [McLean (2014)](https://www.sciencedirect.com/science/article/pii/S0016703713004870), currently in just two dimensions.  Modeling the U-series intermediate daughter disequilibria and radiogenic Pb ingrowth efficiently requires solving a system of first-order linear differential equations with several matrix exponential expressions.  The approach is outlined in
