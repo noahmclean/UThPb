@@ -5,7 +5,7 @@ This repository contains software to make plots and perform calculations for U-P
 
 The algorithms that underpin the plots and calculations are being documented in a manuscript titled, "New Ways to Calculate U-Th and U-Th-Pb dates and uncertainties."  
 
-These algorithms and software tools were created from discussion and collaboration with Chris Smith and David Richards (U of Bristol), and Nick Roberts and Dan Condon (NIGL/BGS) as part of the "Sharpening the U-Th Chronometer" NERC grant.
+This work was the result of discussion and collaboration with Chris Smith and David Richards (U of Bristol), and Nick Roberts and Dan Condon (NIGL/BGS) as part of the "Sharpening the U-Th Chronometer" NERC grant.
 
 #### Table of Contents
 * [Installation](#installation)
@@ -58,7 +58,7 @@ For more detailed instructions on inputting data, performing calculations, gener
 
 This program uses several mathematical algorithms to calculate ages, initial or current activity ratios, and generate plots.  Linear regression through U-Pb data uses the algorithm of [McLean (2014)](https://www.sciencedirect.com/science/article/pii/S0016703713004870), currently in just two dimensions.  The McLean algorithm yields the same results as the conventional York (1969, 2004) algorithm in 2D.
 
-Modeling the U-series intermediate daughter disequilibria and radiogenic Pb ingrowth efficiently requires solving a system of first-order linear differential equations with several matrix exponential expressions.  The approach is outlined in an [2016 AGU poster](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/198460), posted [here](https://github.com/noahmclean/UThPb/blob/master/doc/McLean_UThPb_AGU_2016_v4.pdf), and will be the subject of a journal article in preparation, called "New ways to calculate U-Th and U-Th-Pb dates."
+Modeling the U-series intermediate daughter disequilibria and radiogenic Pb ingrowth efficiently requires solving a system of first-order linear differential equations with several matrix exponential expressions.  The approach is outlined in an [2016 AGU poster](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/198460), posted [here](https://github.com/noahmclean/UThPb/blob/master/doc/McLean_UThPb_AGU_2016_v4.pdf), and will be the subject of a journal article in preparation, called "New Ways to Calculate U-Th and U-Th-Pb dates and uncertainties."
 
 
 ## License
