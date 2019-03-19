@@ -5,7 +5,7 @@ This repository contains software to make plots and perform calculations for U-P
 
 The algorithms that underpin the plots and calculations are being documented in a manuscript titled, "New Ways to Calculate U-Th and U-Th-Pb dates and uncertainties."  
 
-This work was the result of discussion and collaboration with Chris Smith and David Richards (U of Bristol), and Nick Roberts and Dan Condon (NIGL/BGS) as part of the "Sharpening the U-Th Chronometer" NERC grant.
+This work is the result of discussion and collaboration with Chris Smith and David Richards (U of Bristol), and Nick Roberts and Dan Condon (NIGL/BGS) as part of the "Sharpening the U-Th Chronometer" NERC grant.
 
 #### Table of Contents
 * [Installation](#installation)
