@@ -1,7 +1,7 @@
 # UThPb = U-Pb + disequilibria
 
 ## Description
-This repository contains software to make plots and perform calculations for U-Pb geochronology data subject to intermediate daughter isotope disequilibrium conditions that can be measured or assumed.  These comprise the 238U - 234U - 230Th - 226Ra - 206Pb and the 235U - 231Pa - 207Pb decay chains.
+This repository contains software to make plots and perform calculations for U-Pb carbonate/silicate geochronology data subject to intermediate daughter isotope disequilibrium conditions that can be measured or assumed.  These comprise the 238U - 234U - 230Th - 226Ra - 206Pb and the 235U - 231Pa - 207Pb decay chains.
 
 The algorithms that underpin the plots and calculations are being documented in a manuscript titled, "New Ways to Calculate U-Th and U-Th-Pb dates and uncertainties."  
 
