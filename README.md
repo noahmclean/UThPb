@@ -45,13 +45,13 @@ An UThPb Installer window will open and direct you through the install process. 
 
 ## User Guide
 
-For detailed instructions, see the [UThPb User Guide](https://github.com/noahmclean/UThPb/wiki/User-Guide).
+For detailed instructions, see the [UThPb User Guide](https://github.com/noahmclean/UThPb/wiki).
 
 To run UThPb, navigate to the path where you installed it (the default is the Applications folder on a Mac or Program Files on a PC), then click the UThPb folder.  Inside the application folder, double-click the UThPb app/exe to run the program.
 
 The UThPb window contains several components -- a U-Pb data table at the left, a U-Th data and results column in the middle, and a concordia plot on the right.  If the margins of one or more of these components is not showing correctly (e.g., a missing U-Pb label at the top left, a missing y-axis label, etc.), you can generally make these re-appear with a small adjustment to the UThPb window size.
 
-For more detailed instructions on inputting data, performing calculations, generating plots, and interpreting results, please see the [UThPb User Guide](https://github.com/noahmclean/UThPb/wiki/User-Guide).
+For more detailed instructions on inputting data, performing calculations, generating plots, and interpreting results, please see the [UThPb User Guide](https://github.com/noahmclean/UThPb/wiki).
 
 
 ## Algorithms
