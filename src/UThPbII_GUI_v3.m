@@ -589,6 +589,7 @@ switch get(eventdata.NewValue,'Tag') % Get Tag of selected object.
     otherwise
         % Code for when there is no match.
 end
+guidata(hObject, handles);
 
 % --- Executes when selected object is changed in uipanel4.
 function uipanel4_SelectionChangeFcn(hObject, eventdata, handles)
